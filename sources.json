@@ -1,0 +1,18 @@
+{
+  "_comentario": "Fontes do agregador de concursos para economista. Feeds que falharem são ignorados sem quebrar o robô. Os feeds de portais de concursos são lidos e filtrados por menção a Economia/economista.",
+  "rss_feeds": [
+    {"url": "https://www.pciconcursos.com.br/noticias/rss/", "area": ["concurso"], "tipo": "Concurso"},
+    {"url": "https://jcconcursos.com.br/feed", "area": ["concurso"], "tipo": "Concurso"},
+    {"url": "https://blog.grancursosonline.com.br/feed/", "area": ["concurso"], "tipo": "Concurso"},
+    {"url": "https://www.estrategiaconcursos.com.br/blog/feed/", "area": ["concurso"], "tipo": "Concurso"}
+  ],
+  "wikicfp_cats": [],
+  "doaj_queries": [],
+  "openalex_queries": [],
+  "google_cse_queries": [
+    "concurso economista 2026 edital inscrições abertas cargo economista",
+    "concurso 2026 edital ciências econômicas vagas economista nível superior",
+    "concurso 2026 auditor OR analista economia edital São Paulo OR federal inscrições",
+    "edital concurso 2026 \"economista\" CORECON vagas salário"
+  ]
+}

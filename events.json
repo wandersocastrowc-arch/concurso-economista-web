@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "id": "bndes-economista",
+      "nome": "Economista (nível superior)",
+      "inst": "BNDES — Banco Nacional de Desenvolvimento",
+      "categoria": "economista",
+      "areas": [
+        "federal",
+        "desenvolvimento",
+        "economia"
+      ],
+      "ambito": "federal",
+      "local": "Rio de Janeiro/RJ (sede)",
+      "banca": "a definir",
+      "vagas": "CR / a definir",
+      "salario": "~R$ 20.900 (edital 2024)",
+      "prazo": "Sem novo edital de nível superior — monitorar",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "obs": "Exige graduação em Ciências Econômicas + registro no CORECON. O último concurso de nível superior (2024) segue válido até 2027, então um novo edital superior não tem previsão. Há edital de nível MÉDIO em estudo. Acompanhar reabertura para superior.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-bndes-vagas-economia/",
+      "municipio": "Rio de Janeiro/RJ"
+    },
+    {
+      "id": "economista-sp-doe",
+      "nome": "Cargo ‘Economista’ em órgãos estaduais e municipais de SP",
+      "inst": "Vários órgãos (DOE-SP / Diário Oficial)",
+      "categoria": "economista",
+      "areas": [
+        "estadual",
+        "municipal",
+        "economia",
+        "São Paulo"
+      ],
+      "ambito": "estadual-sp",
+      "local": "São Paulo / Grande SP",
+      "banca": "varia",
+      "vagas": "varia por edital",
+      "salario": "varia",
+      "prazo": "Acompanhar continuamente",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "obs": "Entrada-âncora de monitoramento: prefeituras, autarquias e órgãos estaduais de SP abrem vagas pontuais para o cargo privativo de Economista (exige Ciências Econômicas + CORECON). Acompanhar o Diário Oficial do Estado e o concursopublico.sp.gov.br — o robô semanal busca esses editais.",
+      "link": "https://www.concursopublico.sp.gov.br/",
+      "municipio": "Vários (SP)"
+    },
+    {
+      "id": "tce-sp-auditor",
+      "nome": "Auditor de Controle Externo (DIPE)",
+      "inst": "TCE-SP — Tribunal de Contas do Estado de SP",
+      "categoria": "aceita",
+      "areas": [
+        "estadual",
+        "controle externo",
+        "auditoria",
+        "São Paulo"
+      ],
+      "ambito": "estadual-sp",
+      "local": "São Paulo/SP",
+      "banca": "VUNESP",
+      "vagas": "50",
+      "salario": "até ~R$ 20.940",
+      "prazo": "Edital iminente (previsto até jun/2026) — verificar",
+      "prazoSort": "2026-06-30",
+      "status": "soon",
+      "obs": "ÓTIMA aderência e em SP. Exige graduação em Administração, Contabilidade, CIÊNCIAS ECONÔMICAS, Direito, Eng. Civil ou Gestão de Políticas Públicas. 50 vagas, banca VUNESP contratada, edital previsto para sair até junho/2026. Prova objetiva (80 questões) + 2 estudos de caso. Confirmar abertura das inscrições.",
+      "link": "https://www.tce.sp.gov.br/concursos/auditor-controle-externo-e-auditor-controle-externo-administracao",
+      "municipio": "São Paulo/SP"
+    },
+    {
+      "id": "sefaz-sp-apofp",
+      "nome": "Analista em Planejamento, Orçamento e Finanças Públicas (APOFP)",
+      "inst": "SEFAZ-SP — Secretaria da Fazenda de SP",
+      "categoria": "aceita",
+      "areas": [
+        "estadual",
+        "orçamento",
+        "finanças públicas",
+        "São Paulo"
+      ],
+      "ambito": "estadual-sp",
+      "local": "São Paulo/SP",
+      "banca": "a definir",
+      "vagas": "60",
+      "salario": "a definir (carreira valorizada)",
+      "prazo": "Edital em preparação — previsão 2027",
+      "prazoSort": "2026-12-01",
+      "status": "soon",
+      "obs": "60 vagas autorizadas; comissão especial formada em 27/05/2026, em fase de preparação do edital (previsão de provimento 2027). Carreira de planejamento/orçamento estadual que aceita economistas entre as formações. Confirmar exigências de formação no edital.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sp/",
+      "municipio": "São Paulo/SP"
+    },
+    {
+      "id": "bacen-analista-economia",
+      "nome": "Analista — área Economia e Finanças",
+      "inst": "BCB — Banco Central do Brasil",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "economia",
+        "mercado financeiro",
+        "regulação"
+      ],
+      "ambito": "federal",
+      "local": "Brasília/DF + regionais",
+      "banca": "a definir",
+      "vagas": "410 analistas (560 no total solicitado)",
+      "salario": "R$ 20.924,80 inicial",
+      "prazo": "Edital previsto 2026 — aguardando autorização",
+      "prazoSort": "2026-12-01",
+      "status": "soon",
+      "obs": "Carreira-referência para economistas (área Economia e Finanças). 560 vagas solicitadas (410 Analista + 110 Técnico + 40 Procurador); autorização depende do fim da validade do certame anterior (mar/2026); após autorizar, o edital costuma sair em 2–4 meses. ATENÇÃO: aceita graduação em QUALQUER área (prova fortemente econômica). Incluído por ser carreira de economia — arquive se quiser só cargos restritos.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-bacen/",
+      "municipio": "Brasília/DF"
+    },
+    {
+      "id": "ipea-tpp",
+      "nome": "Técnico de Planejamento e Pesquisa",
+      "inst": "IPEA — Instituto de Pesquisa Econômica Aplicada",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "pesquisa",
+        "economia",
+        "políticas públicas"
+      ],
+      "ambito": "federal",
+      "local": "Brasília/DF e Rio/RJ",
+      "banca": "Cesgranrio (2024)",
+      "vagas": "80 (edital anterior)",
+      "salario": "R$ 20.924,80 inicial",
+      "prazo": "Sem novo edital — monitorar",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "obs": "Instituto de pesquisa econômica do governo — trabalho de economista por excelência. Último concurso 2023/2024 (80 vagas, Cesgranrio). Sem novo edital confirmado para 2026. ATENÇÃO: aceita graduação em qualquer área (prova de economia/políticas públicas). Incluído por ser carreira de economia.",
+      "link": "https://www.ipea.gov.br/concurso",
+      "municipio": "Brasília/DF"
+    },
+    {
+      "id": "camara-consultor-orcamento",
+      "nome": "Consultor de Orçamento e Fiscalização Financeira",
+      "inst": "Câmara dos Deputados",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "orçamento",
+        "legislativo"
+      ],
+      "ambito": "federal",
+      "local": "Brasília/DF",
+      "banca": "a definir",
+      "vagas": "a definir",
+      "salario": "R$ 14.008 a R$ 19.091 (Analista) + função",
+      "prazo": "3º edital previsto — monitorar",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "obs": "Analista Legislativo com atribuição de Consultoria de Orçamento e Fiscalização Financeira — área típica de economistas. 3º edital citado como previsto. Confirmar formações aceitas e cronograma.",
+      "link": "https://blog.grancursosonline.com.br/concurso-camara-dos-deputados/",
+      "municipio": "Brasília/DF"
+    },
+    {
+      "id": "senado-consultor-orcamento",
+      "nome": "Consultor Legislativo — Assessoramento em Orçamentos",
+      "inst": "Senado Federal",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "orçamento",
+        "legislativo"
+      ],
+      "ambito": "federal",
+      "local": "Brasília/DF",
+      "banca": "FGV (edição anterior)",
+      "vagas": "a definir",
+      "salario": "alto (consultoria legislativa)",
+      "prazo": "Próxima edição — monitorar",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "obs": "Consultor Legislativo na especialidade de Assessoramento em Orçamentos — uma das melhores posições para economistas no Legislativo. Acompanhar abertura de nova edição (edição anterior pela FGV).",
+      "link": "https://www12.senado.leg.br/transparencia/hotsite-concurso/editais",
+      "municipio": "Brasília/DF"
+    },
+    {
+      "id": "cnu-bloco-economia",
+      "nome": "Bloco temático de Economia (cargos federais)",
+      "inst": "CNU — Concurso Público Nacional Unificado",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "economia",
+        "políticas públicas"
+      ],
+      "ambito": "nacional",
+      "local": "Nacional (provas em todo o país)",
+      "banca": "FGV",
+      "vagas": "varia por bloco",
+      "salario": "varia por cargo",
+      "prazo": "Próxima edição — confirmar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "obs": "O CNU reúne cargos federais por blocos temáticos; há um bloco voltado a Economia (fundamentos econômicos, políticas econômicas). Vários cargos do bloco têm prova fortemente econômica. Confirmar cronograma da próxima edição e as formações exigidas em cada cargo do bloco.",
+      "link": "https://www.gov.br/gestao/pt-br/concursonacional",
+      "municipio": "Nacional"
+    }
+  ]
+}

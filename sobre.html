@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como funciona — Monitor de Concursos para Economista</title>
+<style>
+  :root{ --verde:#14532d; --verde-2:#16a34a; --teal:#0f766e; --bg:#f6f8f6; --card:#fff; --ink:#16181d; --muted:#6b7280; --line:#e3e8e3; color-scheme:light; }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;}
+  .wrap{max-width:820px;margin:0 auto;padding:28px 22px 70px;}
+  a{color:var(--teal);}
+  .back{display:inline-block;font-size:13px;color:var(--teal);text-decoration:none;font-weight:600;margin-bottom:14px;}
+  h1{color:var(--verde);font-size:27px;margin:0 0 6px;}
+  .sub{color:#444;font-size:14px;margin-bottom:22px;}
+  h2{color:var(--verde);font-size:19px;margin:30px 0 8px;border-bottom:2px solid var(--verde-2);padding-bottom:5px;}
+  h3{color:var(--verde);font-size:15px;margin:18px 0 4px;}
+  p{margin:8px 0;}
+  ol,ul{margin:8px 0 8px 4px;padding-left:20px;}
+  li{margin:5px 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:14px 0;}
+  .step{display:flex;gap:12px;margin:10px 0;}
+  .step .n{flex:0 0 28px;height:28px;border-radius:50%;background:var(--verde);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:13px;}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;background:#e7f4ec;color:#14532d;margin:2px 3px 2px 0;}
+  .note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;font-size:14px;color:#7c4a02;margin:14px 0;}
+  code{background:#e7f4ec;padding:1px 6px;border-radius:4px;font-size:13px;}
+  footer{margin-top:34px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Voltar ao painel</a>
+  <h1>Como funciona este monitor</h1>
+  <div class="sub">Um guia rápido do mecanismo, das fontes e do que é privado — sem termos técnicos.</div>
+
+  <h2>O que é</h2>
+  <p>É um painel que reúne, num lugar só, <strong>concursos públicos para economistas</strong> no Brasil. Ele se atualiza sozinho e pode avisar por e-mail. As oportunidades são separadas em duas seções:</p>
+  <ul>
+    <li><strong>1 · Cargos de Economista (privativos)</strong> — exigem graduação em Ciências Econômicas e registro no CORECON. São 100% aderentes ao seu cadastro ativo no órgão de classe.</li>
+    <li><strong>2 · Aceitam economista</strong> — cargos cujo edital lista Economia entre as formações aceitas (junto a Administração, Contabilidade, Direito etc.), ou carreiras de área econômica (BCB, IPEA). <strong>Não</strong> entram aqui concursos abertos a "qualquer nível superior" sem relação com economia.</li>
+  </ul>
+
+  <h2>Como funciona o mecanismo</h2>
+  <p>Toda <strong>segunda de manhã (9h)</strong>, um robô gratuito do GitHub executa, sem ninguém precisar fazer nada:</p>
+  <div class="card">
+    <div class="step"><div class="n">1</div><div><strong>Coleta</strong> — visita portais de concursos e recolhe os editais mais recentes que citam Economia/economista.</div></div>
+    <div class="step"><div class="n">2</div><div><strong>Filtra e organiza</strong> — descarta o que está fora do perfil e o que já encerrou; recalcula o que está "aberto", "previsto" ou "encerrado".</div></div>
+    <div class="step"><div class="n">3</div><div><strong>Publica</strong> — atualiza o painel na internet (GitHub Pages) automaticamente.</div></div>
+    <div class="step"><div class="n">4</div><div><strong>Avisa</strong> — pode enviar um e-mail com o resumo da rodada (novidades + prazos próximos).</div></div>
+  </div>
+  <p class="note">Tudo isso roda na nuvem do GitHub, de graça. O computador de ninguém precisa estar ligado.</p>
+
+  <h2>De onde vêm as oportunidades</h2>
+  <ul>
+    <li><strong>Base curada à mão</strong> — os concursos-âncora verificados um a um: BNDES, BCB, IPEA, TCE-SP, SEFAZ-SP, Câmara, Senado, CNU.</li>
+    <li><strong>Portais de concursos</strong> — PCI Concursos, JC Concursos, Folha Dirigida e similares (feeds), filtrados por menção a Economia/economista.</li>
+    <li><strong>COFECON / CORECON</strong> — os conselhos de Economia publicam listas de concursos com vaga para economista.</li>
+  </ul>
+  <h3>Como os itens são classificados</h3>
+  <ul>
+    <li><strong>Status:</strong> <span class="tag">Aberto</span> (inscreva-se já) · <span class="tag">Iminente/previsto</span> (edital autorizado/em preparação) · <span class="tag">Monitorar</span> (acompanhar) · <span class="tag">Encerrado</span>.</li>
+    <li><strong>Âmbito:</strong> Federal · Nacional (CNU) · Estadual SP · Municipal SP — e as etiquetas verdes de área.</li>
+  </ul>
+  <p>No painel dá para filtrar por status, âmbito, área e busca livre. A caixa "🔥 Prioridades" destaca o que abre/vence nos próximos 45 dias.</p>
+
+  <h2>★ Favoritar e "Não me interessa" (privados)</h2>
+  <p>Cada concurso tem dois botões pessoais:</p>
+  <ul>
+    <li><strong>"☆ Tenho interesse"</strong> marca como <strong>★ favorito</strong> — sobe ao topo, ganha destaque e entra no contador. O filtro <strong>"★ Só favoritos"</strong> mostra só esses.</li>
+    <li><strong>"✕ Não me interessa"</strong> arquiva: some do painel. Para reaver, marque <strong>"Mostrar arquivados"</strong> e clique em <strong>"↩︎ Restaurar"</strong>.</li>
+  </ul>
+  <p>As duas marcas ficam guardadas <strong>apenas no navegador de quem clicou</strong> — são pessoais e não mudam o painel de mais ninguém.</p>
+  <p class="note">Sobre BCB e IPEA: são carreiras de economia que, formalmente, aceitam <strong>qualquer graduação</strong>. Entraram na seção 2 por serem trabalho de economista por excelência — se você só quer cargos com formação restrita, é só arquivá-las.</p>
+
+  <h2>Publicar na sua conta do GitHub</h2>
+  <p>O passo a passo está no <code>README.md</code>: criar um repositório com estes arquivos, ligar o <strong>GitHub Pages</strong> e (opcional) cadastrar os segredos de e-mail e da chave de IA. O endereço final fica algo como <code>https://SEU-USUARIO.github.io/concurso-economista-web/</code>.</p>
+
+  <footer>Monitor de Concursos para Economista · curadoria automática revisada · confira sempre o edital oficial e as formações aceitas antes de se inscrever.</footer>
+</div>
+</body>
+</html>
