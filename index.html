@@ -21,84 +21,108 @@
 <meta name="twitter:title" content="Monitor de Concursos para Economista">
 <meta name="twitter:description" content="Cargos privativos de Economista e cargos que aceitam economista — Brasil todo + São Paulo.">
 <meta name="twitter:image" content="https://wandersocastrowc-arch.github.io/concurso-economista-web/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --verde:#14532d; --verde-2:#16a34a; --teal:#0f766e; --dourado:#b45309;
-    --bg:#f6f8f6; --card:#ffffff; --ink:#16181d; --muted:#6b7280; --line:#e3e8e3;
-    color-scheme:light;
+    --bg:#0a0e0c; --bg-soft:#0d1310; --surface:#131a16; --surface-2:#18211c;
+    --line:rgba(89,244,178,.14); --line-soft:rgba(255,255,255,.07);
+    --ink:#e8f5ee; --muted:#93a89e; --mint:#59f4b2; --mint-2:#7af7c4;
+    --gold:#e3b341; --amber:#fbbf24; --red:#f87171; --indigo:#a5b4fc;
+    color-scheme:dark;
   }
   *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;}
-  .wrap{max-width:1200px;margin:0 auto;padding:24px 20px 70px;}
-  header h1{font-size:26px;margin:0 0 6px;font-weight:700;color:var(--verde);}
-  .subtitle{color:#444;font-size:14px;margin-bottom:8px;}
-  .meta{font-size:12px;color:var(--muted);}
-  .meta strong{color:var(--verde);}
-  .meta a{color:var(--teal);font-weight:600;text-decoration:none;}
-  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0;}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;flex:1 1 120px;min-width:120px;}
-  .stat .num{font-size:22px;font-weight:700;color:var(--verde-2);}
-  .stat.fav .num{color:var(--dourado);}
+  body{margin:0;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(900px 420px at 78% -8%, rgba(89,244,178,.10), transparent 60%),radial-gradient(700px 380px at -5% 4%, rgba(89,244,178,.05), transparent 55%);
+    background-attachment:fixed;}
+  .wrap{max-width:1180px;margin:0 auto;padding:30px 20px 80px;}
+  .live-pill{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--mint);
+    background:rgba(89,244,178,.08);border:1px solid var(--line);padding:6px 13px;border-radius:100px;margin-bottom:16px;}
+  .live-pill .dot{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 4px rgba(89,244,178,.18);}
+  header h1{font-size:34px;line-height:1.1;margin:0 0 10px;font-weight:800;letter-spacing:-.02em;color:#fff;}
+  header h1 em{font-style:italic;color:var(--mint);}
+  .subtitle{color:var(--muted);font-size:14.5px;margin-bottom:10px;max-width:780px;}
+  .meta{font-size:12.5px;color:var(--muted);}
+  .meta strong{color:var(--ink);font-weight:600;}
+  .meta a{color:var(--mint);font-weight:600;text-decoration:none;}
+  .meta a:hover{text-decoration:underline;}
+  .stats{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0;}
+  .stat{background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;padding:14px 16px;flex:1 1 130px;min-width:130px;transition:border-color .2s,transform .2s;}
+  .stat:hover{border-color:var(--line);transform:translateY(-2px);}
+  .stat .num{font-size:26px;font-weight:800;color:var(--mint);letter-spacing:-.02em;}
+  .stat.fav .num{color:var(--gold);}
   .stat.arch .num{color:var(--muted);}
-  .stat .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
-  .priority{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:14px 16px;margin-bottom:20px;}
-  .priority h2{font-size:14px;font-weight:700;color:#92400e;margin:0 0 8px;}
+  .stat .label{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-top:2px;}
+  .priority{background:linear-gradient(180deg, rgba(89,244,178,.07), rgba(89,244,178,.02));border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-bottom:22px;}
+  .priority h2{font-size:13.5px;font-weight:700;color:var(--mint);margin:0 0 10px;letter-spacing:.2px;}
   .priority ul{list-style:none;padding:0;margin:0;}
-  .priority li{padding:6px 0;border-bottom:1px dashed #fde68a;font-size:13px;}
+  .priority li{padding:8px 0;border-bottom:1px solid var(--line-soft);font-size:13.5px;color:var(--ink);}
   .priority li:last-child{border:none;}
   .priority a{color:inherit;text-decoration:none;display:block;}
-  .priority a:hover strong{text-decoration:underline;}
-  .pz{color:#92400e;font-weight:700;}
-  .arrow{color:var(--verde-2);font-weight:700;margin-left:4px;}
-  .filters{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;}
+  .priority a:hover strong{color:var(--mint-2);}
+  .pz{color:var(--amber);font-weight:700;}
+  .arrow{color:var(--mint);font-weight:700;margin-left:4px;}
+  .filters{background:var(--surface);border:1px solid var(--line-soft);border-radius:18px;padding:16px 18px;margin-bottom:18px;}
   .frow{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;}
-  .fg{display:flex;flex-direction:column;gap:4px;}
-  .fg label{font-size:11px;color:#555;font-weight:600;text-transform:uppercase;}
-  .fg select,.fg input{padding:7px 10px;border:1px solid #d3dad3;border-radius:6px;background:#fff;font-size:13px;min-width:160px;}
-  .toggles{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px;}
-  .toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:#444;cursor:pointer;user-select:none;}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
-  .chip{padding:4px 10px;border-radius:12px;background:#e7f4ec;border:1px solid #b6e0c6;color:var(--verde);font-size:12px;cursor:pointer;user-select:none;}
-  .chip.active{background:var(--verde);color:#fff;border-color:var(--verde);}
-  .section-head{margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--verde-2);}
-  .section-head h2{margin:0;font-size:18px;color:var(--verde);}
-  .section-head .desc{font-size:12.5px;color:var(--muted);margin-top:2px;}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px;display:flex;gap:14px;align-items:flex-start;}
-  .card.archived{opacity:.55;}
-  .card.fav{border-color:#f3c87a;box-shadow:0 0 0 1px #f3c87a inset;background:#fffdf6;}
+  .fg{display:flex;flex-direction:column;gap:5px;}
+  .fg label{font-size:10.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.5px;}
+  .fg select,.fg input{padding:9px 12px;border:1px solid var(--line-soft);border-radius:10px;background:var(--bg-soft);color:var(--ink);font-size:13px;min-width:160px;font-family:inherit;outline:none;transition:border-color .2s;}
+  .fg select:focus,.fg input:focus{border-color:var(--mint);}
+  .fg input::placeholder{color:#5f7269;}
+  .toggles{display:flex;flex-wrap:wrap;gap:18px;margin-top:12px;}
+  .toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none;}
+  .toggle input{accent-color:var(--mint);width:15px;height:15px;}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px;}
+  .chip{padding:5px 12px;border-radius:100px;background:rgba(255,255,255,.04);border:1px solid var(--line-soft);color:#b8c9c0;font-size:12px;cursor:pointer;user-select:none;transition:all .15s;}
+  .chip:hover{border-color:var(--line);color:var(--mint);}
+  .chip.active{background:var(--mint);color:#07120d;border-color:var(--mint);font-weight:600;}
+  .section-head{margin:30px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line);}
+  .section-head h2{margin:0;font-size:18px;color:#fff;font-weight:700;}
+  .section-head h2 span{font-weight:400;color:var(--muted);}
+  .section-head h2::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--mint);margin-right:10px;vertical-align:middle;}
+  .section-head .desc{font-size:12.5px;color:var(--muted);margin-top:4px;padding-left:19px;}
+  .card{background:var(--surface);border:1px solid var(--line-soft);border-radius:18px;padding:16px 18px;margin-bottom:12px;display:flex;gap:16px;align-items:flex-start;transition:border-color .2s,transform .2s,box-shadow .2s;}
+  .card:hover{border-color:var(--line);transform:translateY(-2px);box-shadow:0 10px 30px -16px rgba(0,0,0,.7);}
+  .card.archived{opacity:.5;}
+  .card.fav{border-color:rgba(89,244,178,.5);box-shadow:0 0 0 1px rgba(89,244,178,.25),0 12px 30px -18px rgba(89,244,178,.4);background:linear-gradient(180deg, rgba(89,244,178,.05), transparent);}
   .card-main{flex:1;min-width:0;}
-  .card-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:4px;}
-  .title{font-weight:700;color:var(--verde);font-size:15px;}
-  .star-ico{color:var(--dourado);}
-  .inst{font-size:12px;color:var(--muted);margin-bottom:6px;}
-  .badge{display:inline-block;padding:3px 9px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap;}
-  .b-open{background:#d1fae5;color:#065f46;}
-  .b-soon{background:#fef3c7;color:#92400e;}
-  .b-monitor{background:#e0e7ff;color:#3730a3;}
-  .b-closed{background:#fee2e2;color:#991b1b;}
-  .tag{font-size:10px;padding:1px 7px;border-radius:3px;background:#e7f4ec;color:#14532d;margin-right:4px;display:inline-block;margin-top:2px;}
-  .amb-tag{font-size:11px;padding:2px 8px;border-radius:4px;background:var(--verde);color:#fff;}
-  .amb-tag.sp{background:var(--dourado);}
-  .obs{font-size:12.5px;color:#444;margin:6px 0;}
-  .row-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:#555;margin-top:4px;}
-  .row-meta b{color:var(--verde);}
-  .links{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:150px;}
-  .btn{font-size:12px;padding:6px 10px;border-radius:6px;border:1px solid #d3dad3;background:#fff;color:var(--verde);cursor:pointer;text-decoration:none;text-align:center;white-space:nowrap;}
-  .btn:hover{background:#eef4ef;}
-  .btn-link{background:var(--verde-2);color:#fff;border-color:var(--verde-2);font-weight:600;}
-  .btn-link:hover{background:#15803d;}
-  .btn-fav{color:var(--dourado);border-color:#eccb94;}
-  .btn-fav.on{background:#fde68a;border-color:#f0c45a;color:#7c4a02;font-weight:700;}
-  .btn-arch{color:#991b1b;}
-  .empty{padding:24px;text-align:center;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:10px;margin-bottom:10px;}
-  footer{margin-top:28px;font-size:12px;color:var(--muted);text-align:center;padding-top:16px;border-top:1px solid var(--line);}
-  @media(max-width:640px){.card{flex-direction:column;}.links{flex-direction:row;align-items:stretch;width:100%;}.links .btn{flex:1;}}
+  .card-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:7px;}
+  .title{font-weight:700;color:#fff;font-size:15.5px;letter-spacing:-.01em;}
+  .star-ico{color:var(--gold);}
+  .inst{font-size:12.5px;color:var(--muted);margin-bottom:8px;}
+  .badge{display:inline-block;padding:3px 10px;border-radius:100px;font-size:11px;font-weight:700;white-space:nowrap;letter-spacing:.2px;}
+  .b-open{background:rgba(89,244,178,.14);color:var(--mint);}
+  .b-soon{background:rgba(251,191,36,.14);color:var(--amber);}
+  .b-monitor{background:rgba(165,180,252,.14);color:var(--indigo);}
+  .b-closed{background:rgba(248,113,113,.14);color:var(--red);}
+  .tag{font-size:10px;padding:2px 8px;border-radius:100px;background:rgba(89,244,178,.07);color:#8fd9bf;margin-right:5px;display:inline-block;margin-top:3px;border:1px solid var(--line-soft);}
+  .amb-tag{font-size:11px;padding:3px 9px;border-radius:100px;background:rgba(89,244,178,.12);color:var(--mint);font-weight:600;}
+  .amb-tag.sp{background:rgba(227,179,65,.14);color:var(--gold);}
+  .obs{font-size:12.5px;color:#aebcb4;margin:8px 0;line-height:1.55;}
+  .row-meta{display:flex;flex-wrap:wrap;gap:16px;font-size:12px;color:var(--muted);margin-top:6px;}
+  .row-meta b{color:var(--ink);font-weight:600;}
+  .links{display:flex;flex-direction:column;gap:7px;align-items:stretch;min-width:158px;}
+  .btn{font-size:12px;padding:8px 12px;border-radius:10px;border:1px solid var(--line-soft);background:rgba(255,255,255,.04);color:var(--ink);cursor:pointer;text-decoration:none;text-align:center;white-space:nowrap;font-family:inherit;transition:all .15s;}
+  .btn:hover{background:rgba(255,255,255,.08);border-color:var(--line);}
+  .btn-link{background:var(--mint);color:#07120d;border-color:var(--mint);font-weight:700;}
+  .btn-link:hover{background:var(--mint-2);border-color:var(--mint-2);}
+  .btn-fav{color:var(--gold);border-color:rgba(227,179,65,.3);background:transparent;}
+  .btn-fav:hover{background:rgba(227,179,65,.1);}
+  .btn-fav.on{background:rgba(227,179,65,.16);border-color:var(--gold);color:var(--gold);font-weight:700;}
+  .btn-arch{color:var(--red);border-color:rgba(248,113,113,.22);background:transparent;}
+  .btn-arch:hover{background:rgba(248,113,113,.1);}
+  .empty{padding:24px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line-soft);border-radius:16px;margin-bottom:12px;}
+  footer{margin-top:34px;font-size:12px;color:var(--muted);text-align:center;padding-top:20px;border-top:1px solid var(--line-soft);}
+  @media(max-width:640px){header h1{font-size:27px;}.card{flex-direction:column;}.links{flex-direction:row;align-items:stretch;width:100%;}.links .btn{flex:1;}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Monitor de Concursos para Economista</h1>
+    <div class="live-pill"><span class="dot"></span> Atualizado automaticamente · 2026</div>
+    <h1>Concursos para <em>Economista</em></h1>
     <div class="subtitle">Cargos de Economista (privativos) e cargos que aceitam economista junto a outras profissões — Brasil todo + São Paulo</div>
     <div class="meta">Última atualização: <strong id="last-update">—</strong> · Atualiza automaticamente segundas às 9h · <a href="sobre.html">ℹ️ Como funciona</a></div>
   </header>
@@ -157,13 +181,13 @@
   </div>
 
   <div class="section-head">
-    <h2>1 · Cargos de Economista <span style="font-weight:400">(privativos)</span></h2>
+    <h2>1 · Cargos de Economista <span>(privativos)</span></h2>
     <div class="desc">Exigem graduação em Ciências Econômicas e registro no CORECON — 100% aderentes ao seu cadastro.</div>
   </div>
   <div id="list-economista"></div>
 
   <div class="section-head">
-    <h2>2 · Aceitam economista <span style="font-weight:400">(junto a outras profissões)</span></h2>
+    <h2>2 · Aceitam economista <span>(junto a outras profissões)</span></h2>
     <div class="desc">Cargos cujo edital lista Economia entre as formações aceitas (ou carreiras de área econômica). Confira sempre as exigências no edital oficial.</div>
   </div>
   <div id="list-aceita"></div>
@@ -185,6 +209,17 @@ function getFavs(){ return getSet(FAV_KEY); }
 function toggleArchive(id){ const a=getArchived(); if(a.has(id))a.delete(id); else{a.add(id);const f=getFavs();f.delete(id);saveSet(FAV_KEY,f);} saveSet(ARCH_KEY,a); render(); }
 function toggleFav(id){ const f=getFavs(); if(f.has(id))f.delete(id); else{f.add(id);const a=getArchived();a.delete(id);saveSet(ARCH_KEY,a);} saveSet(FAV_KEY,f); render(); }
 window.toggleArchive=toggleArchive; window.toggleFav=toggleFav;
+
+// Recalcula no navegador: item "aberto" cujo prazo já passou vira "encerrado".
+function normalizeStatuses(){
+  const today=new Date(new Date().toDateString());
+  ITEMS.forEach(i=>{
+    if(i.status==='open' && i.prazoSort){
+      const d=new Date(i.prazoSort+"T00:00:00");
+      if(!isNaN(d) && d<today) i.status='closed';
+    }
+  });
+}
 
 const statusBadge={
   open:'<span class="badge b-open">Aberto</span>',
@@ -323,6 +358,7 @@ async function load(){
     const r=await fetch('events.json?t='+Date.now());
     const data=await r.json();
     ITEMS=data.items||[];
+    normalizeStatuses();
     document.getElementById('f-archived').checked = localStorage.getItem(SHOW_ARCH_KEY)==="1";
     document.getElementById('f-fav').checked = localStorage.getItem(ONLY_FAV_KEY)==="1";
     buildChips();
@@ -334,7 +370,7 @@ async function load(){
   try{
     const lu=await (await fetch('last_update.json?t='+Date.now())).json();
     if(lu.timestamp){ document.getElementById('last-update').textContent=new Date(lu.timestamp).toLocaleString('pt-BR',{day:'2-digit',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'}); }
-  }catch(e){ document.getElementById('last-update').textContent='16 de junho de 2026'; }
+  }catch(e){ document.getElementById('last-update').textContent='20 de junho de 2026'; }
 }
 load();
 </script>
