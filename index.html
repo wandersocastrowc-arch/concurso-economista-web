@@ -113,6 +113,8 @@
   .btn-fav.on{background:rgba(227,179,65,.16);border-color:var(--gold);color:var(--gold);font-weight:700;}
   .btn-arch{color:var(--red);border-color:rgba(248,113,113,.22);background:transparent;}
   .btn-arch:hover{background:rgba(248,113,113,.1);}
+  .btn-cal{color:var(--mint);border-color:rgba(89,244,178,.3);background:transparent;}
+  .btn-cal:hover{background:rgba(89,244,178,.1);}
   .empty{padding:24px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line-soft);border-radius:16px;margin-bottom:12px;}
   footer{margin-top:34px;font-size:12px;color:var(--muted);text-align:center;padding-top:20px;border-top:1px solid var(--line-soft);}
   @media(max-width:640px){header h1{font-size:27px;}.card{flex-direction:column;}.links{flex-direction:row;align-items:stretch;width:100%;}.links .btn{flex:1;}}
@@ -210,6 +212,30 @@ function toggleArchive(id){ const a=getArchived(); if(a.has(id))a.delete(id); el
 function toggleFav(id){ const f=getFavs(); if(f.has(id))f.delete(id); else{f.add(id);const a=getArchived();a.delete(id);saveSet(ARCH_KEY,a);} saveSet(FAV_KEY,f); render(); }
 window.toggleArchive=toggleArchive; window.toggleFav=toggleFav;
 
+// Gera um evento de calendário (.ics) com lembretes 7 e 1 dia antes do prazo.
+function icsEsc(s){ return (s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+function ymd(iso){ return iso.replace(/-/g,''); }
+function ymdPlus(iso,n){ const d=new Date(iso+'T00:00:00'); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10).replace(/-/g,''); }
+function addToCalendar(id){
+  const i=ITEMS.find(x=>x.id===id); if(!i||!i.prazoSort) return;
+  const start=ymd(i.prazoSort), end=ymdPlus(i.prazoSort,1);
+  const stamp=new Date().toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+  const desc=icsEsc('Prazo: '+(i.prazo||'')+'\nÓrgão: '+(i.inst||'')+'\nEdital: '+i.link+'\n\n'+(i.obs||'')+'\n\n(Confira o edital oficial — a data pode ser estimada.)');
+  const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Monitor de Concursos//PT-BR','CALSCALE:GREGORIAN','METHOD:PUBLISH',
+    'BEGIN:VEVENT','UID:'+id+'-'+start+'@monitor-concursos','DTSTAMP:'+stamp,
+    'DTSTART;VALUE=DATE:'+start,'DTEND;VALUE=DATE:'+end,
+    'SUMMARY:'+icsEsc('Inscrição — '+i.nome+' ('+i.inst+')'),
+    'DESCRIPTION:'+desc,'URL:'+i.link,
+    'BEGIN:VALARM','TRIGGER:-P7D','ACTION:DISPLAY','DESCRIPTION:'+icsEsc('Prazo chegando (7 dias): '+i.nome),'END:VALARM',
+    'BEGIN:VALARM','TRIGGER:-P1D','ACTION:DISPLAY','DESCRIPTION:'+icsEsc('Último dia amanhã: '+i.nome),'END:VALARM',
+    'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+  const url=URL.createObjectURL(blob); const a=document.createElement('a');
+  a.href=url; a.download=id+'-inscricao.ics'; document.body.appendChild(a); a.click();
+  document.body.removeChild(a); setTimeout(()=>URL.revokeObjectURL(url),1500);
+}
+window.addToCalendar=addToCalendar;
+
 // Recalcula no navegador: item "aberto" cujo prazo já passou vira "encerrado".
 function normalizeStatuses(){
   const today=new Date(new Date().toDateString());
@@ -274,6 +300,9 @@ function cardHTML(i, arch, favs){
   const archBtn=isArch
     ? `<button class="btn" onclick="toggleArchive('${i.id}')">↩︎ Restaurar</button>`
     : `<button class="btn btn-arch" onclick="toggleArchive('${i.id}')">✕ Não me interessa</button>`;
+  const canCal=(i.status==='open'||i.status==='soon') && i.prazoSort && i.prazoSort<'2099';
+  const agendaBtn=canCal ? `<button class="btn btn-cal" onclick="addToCalendar('${i.id}')">📅 Agenda</button>` : '';
+  const linkLabel=(i.status==='soon'||i.status==='monitor') ? 'Acompanhar ↗' : 'Ver edital ↗';
   return `<div class="card ${isArch?'archived':''} ${isFav?'fav':''}">
     <div class="card-main">
       <div class="card-top">${statusBadge[i.status]||''}<span class="amb-tag ${ambSp}">${i.local||i.ambito||''}</span></div>
@@ -290,7 +319,8 @@ function cardHTML(i, arch, favs){
       </div>
     </div>
     <div class="links">
-      <a class="btn btn-link" href="${i.link}" target="_blank" rel="noopener">Ver edital ↗</a>
+      <a class="btn btn-link" href="${i.link}" target="_blank" rel="noopener">${linkLabel}</a>
+      ${agendaBtn}
       ${favBtn}
       ${archBtn}
     </div>
