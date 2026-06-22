@@ -1,26 +1,34 @@
 name: Atualizar Monitor de Concursos (Economista)
+
 on:
   schedule:
-    - cron: "0 12 * * 1"
+    # 2x/semana — segunda e quinta às 12:00 UTC = 09:00 no horário de Brasília (UTC-3)
+    - cron: "0 12 * * 1,4"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: atualizar-monitor-concursos
   cancel-in-progress: false
+
 jobs:
   atualizar:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v4
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Instalar dependencias
+
+      - name: Instalar dependências
         run: pip install -r requirements.txt
-      - name: Rodar atualizador
+
+      - name: Rodar atualizador (agrega fontes + envia e-mail)
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -29,14 +37,15 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
         run: python update.py
-      - name: Commit e push
+
+      - name: Commit e push das mudanças
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add events.json last_update.json
           if git diff --staged --quiet; then
-            echo "Sem mudancas."
+            echo "Sem mudanças para commitar."
           else
-            git commit -m "Atualizacao automatica"
+            git commit -m "Atualização automática: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
