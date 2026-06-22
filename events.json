@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "id": "ibge-analista-economia",
+      "nome": "Analista Censitário — Especialidade Economia (PSS)",
+      "inst": "IBGE — Instituto Brasileiro de Geografia e Estatística",
+      "categoria": "economista",
+      "areas": [
+        "federal",
+        "economia",
+        "estatística",
+        "pesquisa"
+      ],
+      "ambito": "nacional",
+      "local": "Nacional (diversas unidades)",
+      "banca": "Instituto Avalia",
+      "vagas": "parte das 1.414 (Edital nº 02/2026)",
+      "salario": "~R$ 5.000 (Analista, nível superior)",
+      "prazo": "Inscrições 17/06 a 15/07/2026",
+      "prazoSort": "2026-07-15",
+      "status": "open",
+      "obs": "INSCRIÇÕES ABERTAS. Processo seletivo simplificado (contrato temporário) do IBGE. A especialidade Economia exige curso superior completo em Economia; atribuições incluem analisar indicadores econômicos, tratamento estatístico/econométrico e construção de modelos econômicos — trabalho típico de economista. Vínculo temporário (não é cargo efetivo). Confirmar no edital a exigência ou não de registro no CORECON. Inscrições pelo Instituto Avalia até 15/07/2026.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-ibge-2026-inscricoes-abertas-temporarios/",
+      "municipio": "Nacional"
+    },
+    {
+      "id": "tce-sp-auditor",
+      "nome": "Auditor de Controle Externo (DIPE)",
+      "inst": "TCE-SP — Tribunal de Contas do Estado de SP",
+      "categoria": "aceita",
+      "areas": [
+        "estadual",
+        "controle externo",
+        "auditoria",
+        "São Paulo"
+      ],
+      "ambito": "estadual-sp",
+      "local": "São Paulo/SP",
+      "banca": "VUNESP",
+      "vagas": "50",
+      "salario": "R$ 20.940,20 inicial",
+      "prazo": "Edital previsto até jun/2026 — ainda NÃO publicado",
+      "prazoSort": "2026-06-30",
+      "status": "soon",
+      "obs": "ÓTIMA aderência e em SP. Exige graduação em Administração, Contabilidade, CIÊNCIAS ECONÔMICAS, Direito, Eng. Civil ou Gestão de Políticas Públicas. 50 vagas, banca VUNESP contratada (publicação 28/03/2026), taxa R$ 115. Em 21/06/2026 o EDITAL DE ABERTURA ainda não havia sido publicado, apesar da previsão 'até junho' — prazo se aproximando, monitorar de perto. Prova objetiva (conhecimentos específicos da formação) + discursiva (estudo de caso).",
+      "link": "https://www.tce.sp.gov.br/concursos/auditor-controle-externo-e-auditor-controle-externo-administracao",
+      "municipio": "São Paulo/SP"
+    },
+    {
+      "id": "sefaz-sp-apofp",
+      "nome": "Analista em Planejamento, Orçamento e Finanças Públicas (APOFP)",
+      "inst": "SEFAZ-SP — Secretaria da Fazenda e Planejamento de SP",
+      "categoria": "aceita",
+      "areas": [
+        "estadual",
+        "orçamento",
+        "finanças públicas",
+        "São Paulo"
+      ],
+      "ambito": "estadual-sp",
+      "local": "São Paulo/SP",
+      "banca": "a definir",
+      "vagas": "60",
+      "salario": "R$ 6.002,61 inicial (pode passar de R$ 10 mil com gratificações)",
+      "prazo": "Edital previsto para 2º semestre/2026; nomeações 2027",
+      "prazoSort": "2026-12-01",
+      "status": "soon",
+      "obs": "60 vagas autorizadas; comissão especial instituída em 27/05/2026 (estudos, levantamento de vagas e cronograma). Expectativa de edital ainda no 2º semestre de 2026, com nomeações em 2027 — falta definir a banca. Carreira de planejamento/orçamento estadual que aceita economistas. Confirmar exigências de formação no edital.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sp/",
+      "municipio": "São Paulo/SP"
+    },
+    {
+      "id": "bacen-analista-economia",
+      "nome": "Analista — área Economia e Finanças",
+      "inst": "BCB — Banco Central do Brasil",
+      "categoria": "aceita",
+      "areas": [
+        "federal",
+        "economia",
+        "mercado financeiro",
+        "regulação"
+      ],
+      "ambito": "federal",
+      "local": "Brasília/DF + regionais",
+      "banca": "a definir",
+      "vagas": "410 Analista (560 no total solicitado)",
+      "salario": "R$ 18.033,52 inicial (Analista)",
+      "prazo": "Edital previsto 2026 — aguardando autorização do MGI",
+      "prazoSort": "2026-12-01",
+      "status": "soon",
+      "obs": "Carreira-referência para economistas (área Economia e Finanças). 560 vagas solicitadas em out/2025 (410 Analista + 110 Técnico + 40 Procurador). A validade do certame anterior (2024) terminou em mar/2026; a autorização do MGI depende da convocação dos aprovados e do fim dessa validade — após autorizar, o edital costuma sair em 2–4 meses. ATENÇÃO: aceita graduação em QUALQUER área (prova fortemente econômica). Incluído por ser carreira de economia.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-bacen/",
+      "municipio": "Brasília/DF"
+    },
+    {
       "id": "bndes-economista",
       "nome": "Economista (nível superior)",
       "inst": "BNDES — Banco Nacional de Desenvolvimento",
@@ -18,7 +110,7 @@
       "prazo": "Sem novo edital de nível superior — monitorar",
       "prazoSort": "2026-12-01",
       "status": "monitor",
-      "obs": "Exige graduação em Ciências Econômicas + registro no CORECON. O último concurso de nível superior (2024) segue válido até 2027, então um novo edital superior não tem previsão. Há edital de nível MÉDIO em estudo. Acompanhar reabertura para superior.",
+      "obs": "Exige graduação em Ciências Econômicas + registro no CORECON. O último concurso de nível superior (2024) segue válido até 2027, então um novo edital superior não tem previsão. Há edital de nível MÉDIO em estudo (confirmado pela assessoria do BNDES). Acompanhar reabertura para superior.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concurso-bndes-vagas-economia/",
       "municipio": "Rio de Janeiro/RJ"
     },
@@ -44,75 +136,6 @@
       "obs": "Entrada-âncora de monitoramento: prefeituras, autarquias e órgãos estaduais de SP abrem vagas pontuais para o cargo privativo de Economista (exige Ciências Econômicas + CORECON). Acompanhar o Diário Oficial do Estado e o concursopublico.sp.gov.br — o robô semanal busca esses editais.",
       "link": "https://www.concursopublico.sp.gov.br/",
       "municipio": "Vários (SP)"
-    },
-    {
-      "id": "tce-sp-auditor",
-      "nome": "Auditor de Controle Externo (DIPE)",
-      "inst": "TCE-SP — Tribunal de Contas do Estado de SP",
-      "categoria": "aceita",
-      "areas": [
-        "estadual",
-        "controle externo",
-        "auditoria",
-        "São Paulo"
-      ],
-      "ambito": "estadual-sp",
-      "local": "São Paulo/SP",
-      "banca": "VUNESP",
-      "vagas": "50",
-      "salario": "até ~R$ 20.940",
-      "prazo": "Edital iminente (previsto até jun/2026) — verificar",
-      "prazoSort": "2026-06-30",
-      "status": "soon",
-      "obs": "ÓTIMA aderência e em SP. Exige graduação em Administração, Contabilidade, CIÊNCIAS ECONÔMICAS, Direito, Eng. Civil ou Gestão de Políticas Públicas. 50 vagas, banca VUNESP contratada, edital previsto para sair até junho/2026. Prova objetiva (80 questões) + 2 estudos de caso. Confirmar abertura das inscrições.",
-      "link": "https://www.tce.sp.gov.br/concursos/auditor-controle-externo-e-auditor-controle-externo-administracao",
-      "municipio": "São Paulo/SP"
-    },
-    {
-      "id": "sefaz-sp-apofp",
-      "nome": "Analista em Planejamento, Orçamento e Finanças Públicas (APOFP)",
-      "inst": "SEFAZ-SP — Secretaria da Fazenda de SP",
-      "categoria": "aceita",
-      "areas": [
-        "estadual",
-        "orçamento",
-        "finanças públicas",
-        "São Paulo"
-      ],
-      "ambito": "estadual-sp",
-      "local": "São Paulo/SP",
-      "banca": "a definir",
-      "vagas": "60",
-      "salario": "a definir (carreira valorizada)",
-      "prazo": "Edital em preparação — previsão 2027",
-      "prazoSort": "2026-12-01",
-      "status": "soon",
-      "obs": "60 vagas autorizadas; comissão especial formada em 27/05/2026, em fase de preparação do edital (previsão de provimento 2027). Carreira de planejamento/orçamento estadual que aceita economistas entre as formações. Confirmar exigências de formação no edital.",
-      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sp/",
-      "municipio": "São Paulo/SP"
-    },
-    {
-      "id": "bacen-analista-economia",
-      "nome": "Analista — área Economia e Finanças",
-      "inst": "BCB — Banco Central do Brasil",
-      "categoria": "aceita",
-      "areas": [
-        "federal",
-        "economia",
-        "mercado financeiro",
-        "regulação"
-      ],
-      "ambito": "federal",
-      "local": "Brasília/DF + regionais",
-      "banca": "a definir",
-      "vagas": "410 analistas (560 no total solicitado)",
-      "salario": "R$ 20.924,80 inicial",
-      "prazo": "Edital previsto 2026 — aguardando autorização",
-      "prazoSort": "2026-12-01",
-      "status": "soon",
-      "obs": "Carreira-referência para economistas (área Economia e Finanças). 560 vagas solicitadas (410 Analista + 110 Técnico + 40 Procurador); autorização depende do fim da validade do certame anterior (mar/2026); após autorizar, o edital costuma sair em 2–4 meses. ATENÇÃO: aceita graduação em QUALQUER área (prova fortemente econômica). Incluído por ser carreira de economia — arquive se quiser só cargos restritos.",
-      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-bacen/",
-      "municipio": "Brasília/DF"
     },
     {
       "id": "ipea-tpp",
