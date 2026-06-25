@@ -225,6 +225,52 @@
       "obs": "O CNU reúne cargos federais por blocos temáticos; há um bloco voltado a Economia (fundamentos econômicos, políticas econômicas). Vários cargos do bloco têm prova fortemente econômica. Confirmar cronograma da próxima edição e as formações exigidas em cada cargo do bloco.",
       "link": "https://www.gov.br/gestao/pt-br/concursonacional",
       "municipio": "Nacional"
+    },
+    {
+      "id": "rss-concurso-tce-go-formada-comissao-para-tecnico-de-controle-ex",
+      "nome": "Concurso TCE GO: formada comissão para técnico de controle externo; edital iminente",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-06-25",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-tce-go-formada-comissao-para-tecnico-de-controle-externo-edital-iminente-143552"
+    },
+    {
+      "id": "rss-concurso-tce-go-fcc-e-a-banca-para-edital-de-tecnico",
+      "nome": "Concurso TCE GO: FCC é a banca para edital de Técnico!",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-06-25",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-go/"
     }
   ]
 }
