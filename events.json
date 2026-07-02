@@ -271,6 +271,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-go/"
+    },
+    {
+      "id": "rss-concurso-tcdf-edital-iminente-cebraspe-e-a-banca",
+      "nome": "Concurso TCDF: edital iminente! Cebraspe é a banca",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 2116-02-25",
+      "prazoSort": "2116-02-25",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-07-02",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concurso-tcdf/"
     }
   ]
 }
