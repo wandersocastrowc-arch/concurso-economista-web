@@ -18,7 +18,7 @@
       "salario": "~R$ 5.000 (Analista, nível superior)",
       "prazo": "Inscrições 17/06 a 15/07/2026",
       "prazoSort": "2026-07-15",
-      "status": "open",
+      "status": "closed",
       "obs": "INSCRIÇÕES ABERTAS. Processo seletivo simplificado (contrato temporário) do IBGE. A especialidade Economia exige curso superior completo em Economia; atribuições incluem analisar indicadores econômicos, tratamento estatístico/econométrico e construção de modelos econômicos — trabalho típico de economista. Vínculo temporário (não é cargo efetivo). Confirmar no edital a exigência ou não de registro no CORECON. Inscrições pelo Instituto Avalia até 15/07/2026.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concurso-ibge-2026-inscricoes-abertas-temporarios/",
       "municipio": "Nacional"
@@ -432,6 +432,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-brochier/"
+    },
+    {
+      "id": "rss-concurso-sefaz-df-edital-iminente-para-265-vagas-e-cadastros",
+      "nome": "Concurso Sefaz DF: edital iminente para 265 vagas e cadastros",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-07-16",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-sefaz-df-edital-iminente-para-265-vagas-e-cadastros-144051"
     }
   ]
 }
