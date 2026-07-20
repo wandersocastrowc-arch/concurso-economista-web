@@ -455,6 +455,75 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://jcconcursos.com.br/noticia/concursos/concurso-sefaz-df-edital-iminente-para-265-vagas-e-cadastros-144051"
+    },
+    {
+      "id": "rss-concurso-anpd-formada-comissao-organizadora-para-50-vagas-de",
+      "nome": "Concurso ANPD: formada comissão organizadora para 50 vagas de especialistas",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-07-20",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-anpd-formada-comissao-organizadora-para-50-vagas-de-especialistas-144120"
+    },
+    {
+      "id": "rss-quanto-ganha-um-auditor-de-controle-no-tce-ma",
+      "nome": "Quanto ganha um Auditor de Controle no TCE MA?",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 2413-02-25",
+      "prazoSort": "2413-02-25",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-07-20",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concurso-tce-ma-remuneracao-auditor-2026/"
+    },
+    {
+      "id": "rss-concurso-sefaz-ce-21-mil-inscritos-disputam-300-vagas",
+      "nome": "Concurso Sefaz CE: 21 mil inscritos disputam 300 vagas!",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-07-20",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-ce/"
     }
   ]
 }
