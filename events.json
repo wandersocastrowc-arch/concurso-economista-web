@@ -708,6 +708,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/creditos-icms-sefaz-sc/"
+    },
+    {
+      "id": "rss-concurso-prefeitura-de-belem-pa-formada-comissao-para-60-vag",
+      "nome": "Concurso Prefeitura de Belém PA: formada comissão para 60 vagas de auditor fiscal",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-08-06",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-prefeitura-de-belem-pa-formada-comissao-para-60-vagas-de-auditor-fiscal-144564"
+    },
+    {
+      "id": "rss-concurso-tce-sp-2026-cronograma-atualizado-prazos-vagas",
+      "nome": "Concurso TCE SP 2026: cronograma atualizado, prazos, vagas!",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 2116-02-25",
+      "prazoSort": "2116-02-25",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-08-06",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concurso-tce-sp/"
     }
   ]
 }
