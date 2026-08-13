@@ -777,6 +777,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://blog.grancursosonline.com.br/concurso-anpd/"
+    },
+    {
+      "id": "rss-auto-de-infracao-e-apreensao-para-sefaz-df",
+      "nome": "Auto de infração e apreensão para SEFAZ/DF",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-08-13",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/auto-infracao-apreensao-sefaz-df/"
     }
   ]
 }
