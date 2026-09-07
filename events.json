@@ -1145,6 +1145,75 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concursos-federais/"
+    },
+    {
+      "id": "rss-bndes-anuncia-novo-processo-seletivo-com-diversas-vagas",
+      "nome": "BNDES anuncia novo processo seletivo com diversas vagas",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-09-07",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/empregos/bndes-anuncia-novo-processo-seletivo-com-diversas-vagas-145248"
+    },
+    {
+      "id": "rss-concurso-da-sefaz-sc-abre-inscricoes-para-50-vagas-com-salar",
+      "nome": "Concurso da Sefaz SC abre inscrições para 50 vagas com salário de R$ 25 mil",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-09-07",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-sefaz-sc-abre-inscricoes-para-50-vagas-com-salario-de-r-25-mil-145241"
+    },
+    {
+      "id": "rss-concurso-tce-rj-nova-selecao-e-prevista-no-orcamento-de-2027",
+      "nome": "Concurso TCE RJ: nova seleção é prevista no orçamento de 2027",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 2116-02-25",
+      "prazoSort": "2116-02-25",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-09-07",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concurso-tce-rj/"
     }
   ]
 }
