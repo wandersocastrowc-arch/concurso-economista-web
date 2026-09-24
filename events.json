@@ -1329,6 +1329,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concursos-rn-orcamento-2027/"
+    },
+    {
+      "id": "rss-concursos-mt-pldo-2027-oficialmente-aprovada",
+      "nome": "Concursos MT: PLDO 2027 oficialmente aprovada!",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 3109-05-23",
+      "prazoSort": "3109-05-23",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-09-24",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concursos-mt-pldo-2027-oficialmente-aprovada/"
+    },
+    {
+      "id": "rss-concurso-iss-rio-verde-go-edital-publicado-com-30-vagas",
+      "nome": "Concurso ISS Rio Verde GO: edital publicado com 30 vagas!",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-09-24",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-rio-verde-go/"
     }
   ]
 }
