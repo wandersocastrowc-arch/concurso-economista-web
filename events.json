@@ -1375,6 +1375,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-rio-verde-go/"
+    },
+    {
+      "id": "rss-cadernos-reta-final-do-concurso-sefaz-sc-2026",
+      "nome": "Cadernos Reta Final do Concurso Sefaz SC 2026",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-09-28",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/cadernos-reta-final-concurso-sefaz-sc/"
+    },
+    {
+      "id": "rss-cadernos-de-questoes-ineditas-para-o-concurso-sefaz-al",
+      "nome": "Cadernos de questões inéditas para o concurso Sefaz AL",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-09-28",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://www.estrategiaconcursos.com.br/blog/cadernos-questoes-ineditas-concurso-sefaz-al/"
     }
   ]
 }
