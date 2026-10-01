@@ -1421,6 +1421,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://www.estrategiaconcursos.com.br/blog/cadernos-questoes-ineditas-concurso-sefaz-al/"
+    },
+    {
+      "id": "rss-decisoes-definitivas-no-pat-para-sefaz-df",
+      "nome": "Decisões definitivas no PAT para SEFAZ/DF",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-10-01",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://concursos.estrategia.com/portal/decisoes-definitivas-pat-sefaz-df/"
+    },
+    {
+      "id": "rss-isencao-fiscal-do-icms-para-sefaz-sc",
+      "nome": "Isenção fiscal do ICMS para SEFAZ/SC",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-10-01",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://concursos.estrategia.com/portal/isencao-fiscal-icms-sefaz-sc/"
     }
   ]
 }
