@@ -1605,6 +1605,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://concursos.estrategia.com/portal/principios-orcamentarios-concurso-sefaz-df/"
+    },
+    {
+      "id": "rss-cadernos-de-reta-final-do-concurso-tce-go-2026",
+      "nome": "Cadernos de Reta Final do Concurso TCE GO 2026",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-10-26",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://concursos.estrategia.com/portal/cadernos-de-reta-final-concurso-tce-go/"
     }
   ]
 }
