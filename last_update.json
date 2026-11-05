@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-11-02T21:15",
-  "total": 75,
+  "timestamp": "2026-11-05T19:19",
+  "total": 76,
   "novos": 1,
   "encerrados_neste_run": 0,
   "por_status": {
     "closed": 1,
     "soon": 3,
-    "monitor": 51,
+    "monitor": 52,
     "open": 20
   },
   "por_categoria": {
     "economista": 3,
-    "aceita": 72
+    "aceita": 73
   }
 }

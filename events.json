@@ -1720,6 +1720,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://concursos.estrategia.com/portal/e-books-estrategicos-concurso-tce-go/"
+    },
+    {
+      "id": "rss-concurso-iss-blumenau-novo-edital-em-breve-furb-e-a-banca",
+      "nome": "Concurso ISS Blumenau: novo edital em breve; FURB é a banca",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-11-05",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://concursos.estrategia.com/portal/concurso-iss-blumenau-sc/"
     }
   ]
 }
