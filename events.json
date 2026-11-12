@@ -1766,6 +1766,75 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
       "link": "https://jcconcursos.com.br/noticia/concursos/concurso-tj-am-selecao-para-400-vagas-prevista-no-orcamento-2027-146454"
+    },
+    {
+      "id": "rss-concurso-sefaz-df-selecao-para-265-vagas-e-cadastros-ainda-s",
+      "nome": "Concurso Sefaz DF: seleção para 265 vagas e cadastros ainda segue em fase de ajustes com o Cebraspe",
+      "inst": "JC Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-11-12",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://jcconcursos.com.br/noticia/concursos/concurso-sefaz-df-selecao-para-265-vagas-ainda-segue-em-fase-de-ajustes-com-o-cebraspe-146533"
+    },
+    {
+      "id": "rss-concurso-tce-ma-locais-de-prova-disponiveis-a-partir-de-13-1",
+      "nome": "Concurso TCE MA: locais de prova disponíveis a partir de 13/11!",
+      "inst": "Blog Gran Cursos Online — Notícias de Concursos Públicos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Inscricao ate 2413-02-25",
+      "prazoSort": "2413-02-25",
+      "status": "open",
+      "novo": true,
+      "addedOn": "2026-11-12",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://blog.grancursosonline.com.br/concurso-tce-ma/"
+    },
+    {
+      "id": "rss-regime-especial-do-icms-para-sefaz-al",
+      "nome": "Regime especial do ICMS para SEFAZ/AL",
+      "inst": "Estratégia Concursos",
+      "categoria": "aceita",
+      "areas": [
+        "concurso"
+      ],
+      "ambito": "federal",
+      "local": "A confirmar",
+      "municipio": "A confirmar",
+      "banca": "a definir",
+      "vagas": "",
+      "salario": "",
+      "prazo": "Verificar cronograma",
+      "prazoSort": "2026-12-01",
+      "status": "monitor",
+      "novo": true,
+      "addedOn": "2026-11-12",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira o edital oficial e as formacoes aceitas.",
+      "link": "https://concursos.estrategia.com/portal/regime-especial-icms-sefaz-al/"
     }
   ]
 }
